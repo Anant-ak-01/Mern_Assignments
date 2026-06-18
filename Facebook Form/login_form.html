@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook</title>
+    <style>
+        form {
+            width: 300px;
+            margin: auto;
+        }
+
+        label {
+            font-weight: bold;
+        }
+
+        input {
+            width: 100%;
+            border-radius: 6px;
+            padding: 10px;
+        }
+
+        input[type="submit"] {
+            background-color: #1877F2;
+            border-radius: 12px;
+            border: none;
+            color: white
+        }
+
+        .fp {
+            border-radius: 12px;
+            border: none;
+        }
+
+        .account {
+            border-radius: 12px;
+            border: 1px solid #1877F2;
+            background-color: white;
+            color: #1877F2;
+        }
+
+        div {
+            margin-bottom: 10px;
+        }
+
+        img {
+            display: block;
+            margin: auto;
+        }
+    </style>
+</head>
+
+<body>
+    <form>
+        <div>
+            <h2>Log in to Facebook</h2>
+        </div>
+        <div>
+            <label for="email"> Email address or mobile number</label>
+        </div>
+        <div>
+            <input type="text" placeholder="Email address or mobile number" id="email">
+        </div>
+        <div>
+            <label for="pass">Password</label>
+        </div>
+        <div>
+            <input type="password" placeholder="Password" id="pass">
+        </div>
+        <div>
+            <input type="submit" value="Log in">
+        </div>
+        <div>
+            <input type="button" value="Forgotten password?" class="fp">
+        </div>
+        <div>
+            <a href="/create_account.html">
+                <input type="button" value="Create new account" class="account">
+            </a>
+
+        </div>
+        <div class="last">
+            <img src="https://pngimg.com/uploads/meta/meta_PNG8.png" alt="" width="50px">
+        </div>
+    </form>
+
+
+</body>
+
+</html>
