@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+
+}
+.nav{
+    display: flex;
+    background-color:darksalmon;
+    height: 70px;
+    width: 100%;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.left-nav{
+    width: 30%;
+    font-size: 20px;
+}
+.right-nav{
+    width: 70%;
+    text-align: center;
+    font-size: 25px;
+
+}
+.right-nav ul{
+    list-style: none;
+}
+.right-nav ul li{
+    display: inline-block;
+    padding: 20px;
+}
+.right-nav ul li a{
+    display: block;
+    text-decoration: none;
+    color: black;
+}
+.right-nav ul li:hover{
+    background-color: black;
+    border-bottom:5px solid white;
+}
+.right-nav  ul li:hover a{
+    color: darksalmon;
+}
+p{
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 60px;
+    
+}
+.main-image{
+    height: 80vh;
+    background-color: black;    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h2{
+    margin:15px;
+}
+#m2{
+    background-image: linear-gradient(darksalmon,cornsilk);
+   background-clip: text;
+    background-position: center;
+    background-size: contain;
+    color: transparent;
+    font-weight: bold;
+}
+.hire{
+    font-size: 30px;
+    padding: 10px;
+    background-color: darksalmon;
+    border-radius: 70px;
+}
+.hire a{
+    text-decoration: none;
+    color: black;
+}
