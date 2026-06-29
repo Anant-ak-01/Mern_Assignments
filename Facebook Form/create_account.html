@@ -57,7 +57,7 @@
 </head>
 
 <body>
-    <form>
+    <form onsubmit="CreateAccount()" action="JavaScript:void(0)">
         <div>
             <img src="https://pngimg.com/uploads/meta/meta_PNG8.png" alt="" width="30px">
             <h2>Get started on Facebook</h2>
@@ -69,14 +69,14 @@
         <div>
 
             <input type="text" placeholder="First Name" id="fname">
-            <input type="text" placeholder="Surname">
+            <input type="text" placeholder="Surname" id="lname">
 
         </div>
         <div>
             <label for="">Date of birth</label>
         </div>
         <div>
-            <select name="" id="">
+            <select name="" id="day">
                 <option value="" selected disabled hidden>Day</option>
                 <option value="1">1</option>
                 <option value="2">2</option>
@@ -110,22 +110,22 @@
                 <option value="30">30</option>
                 <option value="31">31</option>
             </select>
-            <select name="" id="">
+            <select name="" id="month">
                 <option value="" selected disabled hidden>Month</option>
                 <option value="January">January</option>
                 <option value="February">February</option>
                 <option value="March">March</option>
-                <option value="4">April</option>
-                <option value="5">May</option>
-                <option value="6">June</option>
-                <option value="7">July</option>
-                <option value="8">August</option>
-                <option value="9">September</option>
-                <option value="10">October</option>
-                <option value="11">November</option>
-                <option value="12">December</option>
+                <option value="April">April</option>
+                <option value="May">May</option>
+                <option value="June">June</option>
+                <option value="July">July</option>
+                <option value="August">August</option>
+                <option value="September">September</option>
+                <option value="October">October</option>
+                <option value="November">November</option>
+                <option value="December">December</option>
             </select>
-            <select name="" id="">
+            <select name="" id="year">
                 <option value="" selected disabled hidden>Year</option>
                 <option value=2026>2026</option>
                 <option value=2025>2025</option>
@@ -260,7 +260,7 @@
             <label for="">Gender</label>
         </div>
         <div>
-            <select name="" id="" class="full">
+            <select name="" id="gender" class="full">
                 <option value="" selected disabled hidden>Select your gender</option>
                 <option value="Female">Female</option>
                 <option value="Male">Male</option>
@@ -305,7 +305,7 @@
         </div>
     </form>
 
-
+    <script src="assets/js/create.js"></script>
 </body>
 
 </html>
