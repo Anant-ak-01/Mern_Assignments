@@ -11,7 +11,7 @@ const App=(()=>{
     tag: "Remote",
     salary: "$140k - $170k",
     location: "Bengaluru, India"
-  },
+   },
   {
     logo: "https://img.icons8.com/?size=100&id=22989&format=png&color=000000",
     companyName: "Microsoft",
@@ -123,13 +123,17 @@ const App=(()=>{
   location: "Gurugram, India"
 }
 ];
-  return(<div className="card-div">
+  return(<>
+  <div className="heading">
+    <h1>Job Opportunities</h1>
+  </div>
+  <div className="card-div">
     {data.map((val,i)=>{
       return <div key={i}> 
       <Card name={val.companyName} post={val.postedTime} jobtitle={val.jobDesignation} jobtype={val.jobType} level={val.tag} salary={val.salary} location={val.location} logo={val.logo}/>
       </div>
     })}
   </div>
-    )
+    </>)
 })
 export default App;

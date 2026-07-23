@@ -97,3 +97,12 @@ align-items: center;
   justify-content: center;
   align-items: center;
 }
+.heading h1{
+ color: white;
+ text-align: center;
+ font-weight: bold;
+ font-size: 40px;
+}
+.heading{
+  margin: 20px;
+}
