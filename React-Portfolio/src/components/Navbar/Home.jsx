@@ -2,7 +2,8 @@ import React from 'react'
 import About from './About'
 import Skills from './Skills'
 import Projects from './Projects'
-import HomeImage from '../../assets/banner.png'
+import HomeImage from '../../assets/banner.webp'
+import Contact from './Contact'
 
 
 const Home = () => {
@@ -12,6 +13,7 @@ const Home = () => {
       <About />
       <Skills />
       <Projects />
+      <Contact />
     </div>
   )
 }

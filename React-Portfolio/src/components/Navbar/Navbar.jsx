@@ -22,12 +22,15 @@ const Navbar = () => {
         <li className="nav-item">
           <NavLink className="nav-link text-light fs-5 fw-bold px-4" to="/Projects">Projects</NavLink>
         </li>
+        <li className="nav-item">
+          <NavLink className="nav-link text-light fs-5 fw-bold px-4" to="/Contact">Contact</NavLink>
+        </li>
       </ul>
        <div className="icon-nav mx-2">
             <ul>
                 <li><a href="https://www.linkedin.com/in/anant-kashyap-8193b3420/" target="_blank"><i className="fa fa-linkedin mx-2"></i></a></li>
                 <li><a href="https://github.com/Anant-ak-01/Mern_Assignments" target="_blank"><i className="fa fa-github mx-2"></i></a></li>
-                <li><a href="https://www.instagram.com" target="_blank"><i className="fa fa-instagram mx-2"></i></a></li>
+                <li><a href="https://www.instagram.com/a_n_a_n_t_.01" target="_blank"><i className="fa fa-instagram mx-2"></i></a></li>
             </ul>
         </div>
     </div>

@@ -1,8 +1,8 @@
 import React from 'react'
 import Skillsdata from '../Skills/Skillsdata'
-import RestApi from '../../assets/apilogo.png'
-import Express from '../../assets/expressjs.png'
-import VsCode from '../../assets/vscode.png'
+import RestApi from '../../assets/apilogo.webp'
+import Express from '../../assets/expressjs.webp'
+import VsCode from '../../assets/vscode.webp'
 
 const Skills = () => {
   const data = [

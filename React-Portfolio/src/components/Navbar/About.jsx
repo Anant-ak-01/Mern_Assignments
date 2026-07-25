@@ -1,5 +1,5 @@
 import React from 'react'
-import aboutImage from '../../assets/about.png'
+import aboutImage from '../../assets/about.webp'
 const About = () => {
   return (
    <div className="about container d-flex justify-content-between">

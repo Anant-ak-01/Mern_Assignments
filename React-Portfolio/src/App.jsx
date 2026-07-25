@@ -7,6 +7,7 @@ import Projects from './components/Navbar/Projects'
 import PageNotFound from './components/PageNotFound'
 import Skills from './components/Navbar/Skills'
 import Footer from './components/Navbar/Footer'
+import Contact from './components/Navbar/Contact'
 const App = () => {
   return (
   <BrowserRouter>
@@ -16,6 +17,7 @@ const App = () => {
     <Route path='/About' element={<About />}/>
     <Route path='/Skills' element={<Skills />}/>
     <Route path='/Projects' element={<Projects />}/>
+    <Route path='/Contact' element={<Contact />}/>
 
     <Route path="*" element={<PageNotFound />} />
   </Routes>

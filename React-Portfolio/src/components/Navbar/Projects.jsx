@@ -1,26 +1,33 @@
 import React from 'react'
 import Projectsdata from '../Skills/Projectsdata'
-import img2 from '../../assets/project2.png'
-import img3 from '../../assets/project3.png'
-import img4 from '../../assets/ToDo.png'
-import img5 from '../../assets/Weather_api.png'
-import img6 from '../../assets/StopWatch.png'
-import img7 from '../../assets/login-form.png'
-import JobCard from '../../assets/JobCard.png'
+import img4 from '../../assets/ToDo.webp'
+import img2 from '../../assets/project2.webp'
+import img3 from '../../assets/project3.webp'
+import img5 from '../../assets/Weather_api.webp'
+import img6 from '../../assets/StopWatch.webp'
+import img7 from '../../assets/login-form.webp'
+import JobCard from '../../assets/JobCard.webp'
+import hirehub from "../../assets/Hirehub.webp"
 
 const Projects = () => {
   const data=[
+      {
+      image:hirehub,
+      title:"HireHub – Job Portal",
+      description:"A responsive job portal built with React. Frontend completed; backend is currently in development using the MERN stack.",
+      path:"https://job-seekers-portal.netlify.app/"
+    },
     {
       image:img2,
       title:"Art Gallery",
       description:"Creative art gallery design demonstrating advanced CSS Grid positioning, image scaling effects, and responsive styling.",
-      path:"../Projects/project-2/index.html"
+      path:"https://dainty-dusk-919fb4.netlify.app/"
     },
     {
       image:img3,
       title:"Digital Agency Landing Page",
       description:"Professional homepage design showcasing responsive navigation, engaging visuals, and a compelling hero section.",
-      path:"../Projects/project-3/index.html"
+      path:"https://wondrous-banoffee-9246b5.netlify.app/"
     },
     {
       image:img4,
